@@ -1,0 +1,24 @@
+{
+    "id": "A65CA1CE",
+    "path": "~/Shiny_timeseries/Tz_timeseries/climatology/app.R",
+    "project_path": "climatology/app.R",
+    "type": "r_source",
+    "hash": "2018859491",
+    "contents": "",
+    "dirty": false,
+    "created": 1670505928063.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1597225280,
+    "encoding": "ISO8859-1",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1597225280,
+    "read_only": false,
+    "read_only_alternatives": []
+}

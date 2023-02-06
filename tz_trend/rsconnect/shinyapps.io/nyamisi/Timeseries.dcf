@@ -1,0 +1,12 @@
+name: Timeseries
+title: Timeseries
+username:
+account: nyamisi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2667216
+bundleId: 3511746
+url: https://nyamisi.shinyapps.io/Timeseries/
+when: 1597336304.61903
+asMultiple: FALSE
+asStatic: FALSE

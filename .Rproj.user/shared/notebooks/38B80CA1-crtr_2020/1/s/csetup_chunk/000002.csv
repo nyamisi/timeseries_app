@@ -1,0 +1,15 @@
+"0","knitr::opts_chunk$set(echo = TRUE)"
+"2","Warning messages:
+"
+"2","1: "
+"2","In readLines(con, warn = FALSE) :"
+"2","
+ "
+"2"," invalid input found on input connection 'crtr_data_manipulation_Feb.Rmd'
+"
+"2","2: "
+"2","In readLines(con, warn = FALSE) :"
+"2","
+ "
+"2"," invalid input found on input connection 'crtr_data_manipulation_Feb.Rmd'
+"

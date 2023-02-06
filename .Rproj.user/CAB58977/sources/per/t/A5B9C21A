@@ -1,0 +1,25 @@
+{
+    "id": "A5B9C21A",
+    "path": "~/Shiny_timeseries/Tz_timeseries/tz_trend/app.R",
+    "project_path": "tz_trend/app.R",
+    "type": "r_source",
+    "hash": "1339041377",
+    "contents": "",
+    "dirty": false,
+    "created": 1597051492639.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "cursorPosition": "25,64",
+        "scrollLine": "0",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1597672248,
+    "encoding": "ISO8859-1",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1597672248548,
+    "read_only": false,
+    "read_only_alternatives": []
+}

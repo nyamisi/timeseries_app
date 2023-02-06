@@ -1,0 +1,5 @@
+"0",""
+"0","crtr.data = crtr.data%>%"
+"0","          separate(Seasons, c('Seasons', 'code'))"
+"0","crtr.data =  crtr.data%>%"
+"0","            select(-code)"

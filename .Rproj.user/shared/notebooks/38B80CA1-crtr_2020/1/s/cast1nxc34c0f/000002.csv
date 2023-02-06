@@ -1,0 +1,165 @@
+"0","#load packages"
+"0","require(tidyverse)"
+"0"," require(raster) # geographical data analysis and modeling"
+"2","Loading required package: raster
+"
+"2","Loading required package: sp
+"
+"2","
+Attaching package: ‘raster’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    select
+
+"
+"2","The following object is masked from ‘package:tidyr’:
+
+    extract
+
+"
+"0","require(rgdal) # bingings for the geospatil data"
+"2","Loading required package: rgdal
+"
+"2","rgdal: version: 1.5-12, (SVN revision 1018)
+Geospatial Data Abstraction Library extensions to R successfully loaded
+Loaded GDAL runtime: GDAL 3.0.4, released 2020/01/28
+Path to GDAL shared files: D:/Users/Masumbuko.Semba/Documents/R/win-library/3.6/rgdal/gdal
+GDAL binary built with GEOS: TRUE 
+Loaded PROJ runtime: Rel. 6.3.1, February 10th, 2020, [PJ_VERSION: 631]
+Path to PROJ shared files: D:/Users/Masumbuko.Semba/Documents/R/win-library/3.6/rgdal/proj
+Linking to sp version:1.4-2
+To mute warnings of possible GDAL/OSR exportToProj4() degradation,
+use options(""rgdal_show_exportToProj4_warnings""=""none"") before loading rgdal.
+"
+"0","require(broom) # convert statistical analyss objects into Tidy Dat Frames"
+"2","Loading required package: broom
+"
+"0","require(RColorBrewer) # color brewer palletes"
+"2","Loading required package: RColorBrewer
+"
+"0","require(rgeos) # interface t geometry engine-open source"
+"2","Loading required package: rgeos
+"
+"2","rgeos version: 0.5-3, (SVN revision 634)
+ GEOS runtime version: 3.8.0-CAPI-1.13.1 
+ Linking to sp version: 1.4-1 
+ Polygon checking: TRUE 
+
+"
+"0","require(maptools) # tools for reading and handling spatial objects"
+"2","Loading required package: maptools
+"
+"2","Checking rgeos availability: TRUE
+"
+"0","require(mapdata) # map datatabase"
+"2","Loading required package: mapdata
+"
+"2","Loading required package: maps
+"
+"2","
+Attaching package: ‘maps’
+
+"
+"2","The following object is masked from ‘package:purrr’:
+
+    map
+
+"
+"0","require(ggsn) # to add north arrow and a scale bar to the map"
+"2","Loading required package: ggsn
+"
+"2","Loading required package: grid
+"
+"2","
+Attaching package: ‘ggsn’
+
+"
+"2","The following object is masked from ‘package:raster’:
+
+    scalebar
+
+"
+"0","require(tidyr)"
+"0","require(dplyr)"
+"0","require(lubridate)"
+"0","require(factoextra)"
+"2","Loading required package: factoextra
+"
+"2","Welcome! Want to learn more? See two factoextra-related books at https://goo.gl/ve3WBa
+"
+"0","require(knitr)"
+"2","Loading required package: knitr
+"
+"0","require(EnvStats)"
+"2","Loading required package: EnvStats
+"
+"2","
+Attaching package: ‘EnvStats’
+
+"
+"2","The following objects are masked from ‘package:raster’:
+
+    cv, predict, print
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    predict, predict.lm
+
+"
+"2","The following object is masked from ‘package:base’:
+
+    print.default
+
+"
+"0","require(gridExtra)"
+"2","Loading required package: gridExtra
+"
+"2","
+Attaching package: ‘gridExtra’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    combine
+
+"
+"0","require(grid)"
+"0","require(car)"
+"2","Loading required package: car
+"
+"2","Loading required package: carData
+"
+"2","
+Attaching package: ‘car’
+
+"
+"2","The following object is masked from ‘package:EnvStats’:
+
+    qqPlot
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    recode
+
+"
+"2","The following object is masked from ‘package:purrr’:
+
+    some
+
+"
+"0","require(conflicted)"
+"2","Loading required package: conflicted
+"
+"0","conflict_prefer(""select"", ""dplyr"")"
+"2","[conflicted] Will prefer [34mdplyr::select[39m over any other package
+"
+"0","conflict_prefer(""print"", ""EnvStats"")"
+"2","[conflicted] Will prefer [34mEnvStats::print[39m over any other package
+"
+"0","conflict_prefer(""filter"", ""dplyr"")"
+"2","[conflicted] Will prefer [34mdplyr::filter[39m over any other package
+"

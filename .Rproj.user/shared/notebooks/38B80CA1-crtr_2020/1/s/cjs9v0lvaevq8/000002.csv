@@ -1,0 +1,6 @@
+"0","nut = nut%>%mutate(date = seq(dmy(200308),"
+"0","                              dmy(150309),"
+"0","                              30))"
+"0","nut = nut%>%rename(Date = Month)"
+"0","nut = nut%>%mutate(Year = year(date), "
+"0","                   Month = month(date))"

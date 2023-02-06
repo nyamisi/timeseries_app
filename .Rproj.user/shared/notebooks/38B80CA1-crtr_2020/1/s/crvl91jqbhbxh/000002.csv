@@ -1,0 +1,4 @@
+"0","### spread"
+"0","crtr.wide = crtr.long%>%spread(variable, values)"
+"0",""
+"0","rm(cr, crtr.long, do, ph, salinity, temperature)"

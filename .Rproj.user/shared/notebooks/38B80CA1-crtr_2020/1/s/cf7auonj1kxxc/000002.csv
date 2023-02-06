@@ -1,0 +1,8 @@
+"0",""
+"0","crtr.data =crtr.wide%>%"
+"0","            full_join(nut.wide, by = c('site' = 'site', "
+"0","                                       'date' = 'date', "
+"0","                                       'Year' = 'Year', "
+"0","                                       'Month' = 'Month'))"
+"0","remove(ammonia, chlorophyll, nitrate, nut, nut.long, phosphate, crtr.long, crtr.wide)"
+"2","object 'crtr.long' not found"
